@@ -126,9 +126,11 @@ var $node=(function(){
             $menu.append($fonts);
         })
         $fonts.find('#cl').click(function(){
+            alert('确定关闭。');
             $('.notepad-dlg-font').remove();
         })
         $fonts.find('.btn-cancel').click(function(){
+            alert('确定取消。');
             $('.notepad-dlg-font').remove();
         })
         $fonts.find('.btn-ok').click(function(){
